@@ -7,57 +7,12 @@
 <html>
     <head>
         <link rel="stylesheet" href="CSS-Menu.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        <style>
 
-
-            /*CSS search box*/
-            input[type=text] {
-                width: 150px;
-                box-sizing: border-box;
-                border: 2px solid #ccc;
-                border-radius: 4px;
-                font-size: 16px;
-                background-color: white;
-                /*background-image: url('searchicon.png');*/
-                background-position: 10px 10px; 
-                background-repeat: no-repeat;
-                padding: 12px 20px 12px 40px;
-                -webkit-transition: width 0.4s ease-in-out;
-                transition: width 0.4s ease-in-out;
-            }
-
-            input[type=text]:focus {
-                width: 100%;
-            }
-
-            /* CSS Pagination */
-            .center {
-                text-align: center;
-                padding: 20px 16px;
-            }
-            .pagination {
-                display: inline-block;
-            }
-
-            .pagination a {
-                color: black;
-                float: left;
-                padding: 8px 16px;
-                text-decoration: none;
-                border: 1px solid #ddd;
-            }
-
-            .pagination a.active {
-                background-color: #4CAF50;
-                color: white;
-            }
-
-            .pagination a:hover:not(.active) {background-color: #ddd;}
-
-        </style>
     </head>
     <body>
         <header>
@@ -114,14 +69,14 @@
             </table>-->
         </aside>
 
-        <table>
+        <table class="sAffichageAnnonces">
             <?php for ($i = 0; $i < 10; $i++) {
                 ?>
                 <tr>
 
                     <td>
                         <div>
-                            <table style="height:150px"  frame="box">
+                            <table style="height:150px" border="1" <!--frame="box"--> >
                                 <caption style="font-weight: bold;font-variant: small-caps;font-size: 150%;height:40px;line-height: 40px;" >Annonce no1</caption>
                                 <tr>
                                     <th align="center"><a href="info-annonce.html">Bugatti chiron</a> </th>
@@ -129,7 +84,7 @@
                                 <tr>
                                     <td><img src="Produit1.jpg"  style="border:2px solid;width:144px;height:150px;"></td>
                                     <td>
-                                        <table  align="left" border="1" cellspacing="5" width="1500">
+                                        <table  align="left" border="1" cellspacing="5" width="800">
                                             <tr>
                                                 <td style="text-align:left;">Numéro séquentiel : </td>
                                             </tr>
@@ -151,7 +106,7 @@
                                         </table>
                                     </td>
                                 </tr>
-                            </table>     
+                            </table>
                         </div>
                     </td>
                 </tr>
@@ -172,7 +127,7 @@
         </div>
 
         <script>
-            /* When the user clicks on the button, 
+            /* When the user clicks on the button,
              toggle between hiding and showing the dropdown content */
             function myFunction() {
                 document.getElementById("myDropdown").classList.toggle("show");

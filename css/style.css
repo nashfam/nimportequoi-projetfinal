@@ -45,5 +45,7 @@
 
     /*sAffichageAnnonces - tableau qui contient tous les annonces*/
     .sAffichageAnnonces{
-      padding-left: 1em;
+      margin: 0 auto;
+      background-color: gray;
+      padding: 0 2em 0 2em;
     }

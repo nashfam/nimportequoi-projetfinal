@@ -89,19 +89,19 @@
                                                 <td style="text-align:left;">Numéro séquentiel : </td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align:left;">Date de parution: </td>
+                                                <td style="text-align:left;">Date de parution : </td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align:left;">Catégorie </td>
+                                                <td style="text-align:left;">Catégorie : </td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align:left;">Description abrégée </td>
+                                                <td style="text-align:left;">Description abrégée : </td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align:right;">Prix </td>
+                                                <td style="text-align:left;">Prix :  </td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align:center;">Etat </td>
+                                                <td style="text-align:center;">Etat :</td>
                                             </tr>
                                         </table>
                                     </td>

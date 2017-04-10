@@ -1,4 +1,5 @@
 <header>
+    <link rel="stylesheet" href="css/CSS-menu.css" type="text/css">
             <h1>N'IMPORTE QUOI</h1>
             <ul class="menuHaut">
 
@@ -14,6 +15,7 @@
                 </li>
                 <li class="menuHaut"><a class="menuHaut" onclick="window.location = 'mon-compte.php';">Mon Compte</a></li>
                 <li class="menuHaut"><a class="menuHaut" onclick="window.location = 'mes-annonces.php';">Mes Annonces</a></li>
+                <li class="menuHaut"><a class="menuHaut" onclick="window.location = 'nouvelle-annonce.php';">Nouvelle annonce</a></li>
                 <li class="menuHaut" style="float:right"><a class="menuHaut" onclick="window.location = 'connexion.php';">Déconnexion</a></li>
                 
                 <li class="menuHaut" style="float:right">

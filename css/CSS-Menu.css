@@ -9,6 +9,11 @@
         /*position: fixed;
         top: 0;
         width: 100%;*/
+        /*background:url("wallpaper.jpg");*/
+        background-color: rgba(40,57,101,.6);
+        
+	/*box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);*/
+        
         
     }
 
@@ -33,11 +38,12 @@
     li a:hover {
       color:#fff;
       border-color:#1161ee;
+      background-color: #3477e2;
     }
 
-    /*.active {
-        background-color: #4CAF50;
-    }*/
+    .active {
+        background-color: #1161ee;
+    }
 
     /*CSS Menu Cote*/
     ul.menuCote {

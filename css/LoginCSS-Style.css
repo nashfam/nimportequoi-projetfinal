@@ -3,7 +3,7 @@ body{
         background-color: #f7f7f7;
 	color: #000000;
 	background:url("wallpaper.jpg");
-        
+
 	font:600 16px/18px 'Open Sans',sans-serif;
 }
 *,:after,:before{box-sizing:border-box}

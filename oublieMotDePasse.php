@@ -20,6 +20,18 @@
                             <label for="user" class="label">Nom d'utilisateur</label>
                             <input id="user" type="text" class="input" required autofocus>
                         </div>
+                        <div class="group">
+                            <label for="pass" class="label">Nouveau mot de passe</label>
+                            <input id="pass" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Confirmation du nouveau mot de passe</label>
+                            <input id="pass" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+
+                            <input type="submit" class="button" value="Generer un nouveau mot de pase" onclick="window.location = 'connexion.php';">
+                        </div>
                     </div>
                 </div>
             </div>

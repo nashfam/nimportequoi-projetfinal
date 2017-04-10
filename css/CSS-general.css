@@ -1,0 +1,56 @@
+
+  /*CSS search box*/
+    input[type=text] {
+       
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        /*padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;*/
+    }
+
+    input[type=text]:focus {
+        width: 100%;
+    }
+
+    /* CSS Pagination */
+    .center {
+        text-align: center;
+        padding: 20px 16px;
+    }
+    .pagination {
+        display: inline-block;
+    }
+
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: 1px solid #ddd;
+    }
+
+    .pagination a.active {
+        /*#1161ee*/
+        background-color: #1161ee;
+        color: white;
+    }
+
+    .pagination a:hover:not(.active) {background-color: #ddd;}
+
+    /*sAffichageAnnonces - tableau qui contient tous les annonces*/
+    .sAffichageAnnonces{
+      margin: 0 auto;
+      background-color: white;
+      padding: 0 2em 0 2em;
+    }
+ 
+    body{
+        
+        background: rgba(40,57,101,.6);
+    }

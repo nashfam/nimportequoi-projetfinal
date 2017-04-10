@@ -7,7 +7,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="CSS-Menu.css" type="text/css">
-        <link rel="stylesheet" href="css/style-menu.css" type="text/css">
+        <link rel="stylesheet" href="css/CSS-general.css" type="text/css">
         
         
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -32,7 +32,7 @@
         </div>
 
         <table class="sAffichageAnnonces">
-            <?php for ($i = 0; $i < 10; $i++) { ?>
+            <?php for ($i = 1; $i < 10; $i++) { ?>
                 <tr>
 
                     <td>

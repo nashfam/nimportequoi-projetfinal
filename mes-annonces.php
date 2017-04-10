@@ -1,7 +1,7 @@
 <html>
     <head>
        <link rel="stylesheet" href="CSS-Menu.css" type="text/css">
-       <link rel="stylesheet" href="css/style-menu.css" type="text/css">
+       <link rel="stylesheet" href="css/CSS-general.css" type="text/css">
 
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

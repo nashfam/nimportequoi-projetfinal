@@ -30,7 +30,7 @@
                                 <option value="volvo">Categorie 1</option>
                                 <option value="saab">Categorie 2</option>
                                 <option value="fiat">Categorie 3</option>
-                                <option value="audi">Categorie 4</option>
+                                <option value="audi">Categorie 4 Test</option>
                             </select>
                         </td>
                     </tr>

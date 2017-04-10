@@ -1,71 +1,13 @@
-<?php 
-
-
-?>
 <html>
     <head>
-        <title></title>
+        <link rel="stylesheet" href="CSS-Menu.css" type="text/css">
+        <link rel="stylesheet" href="css/style-menu.css" type="text/css">
+        
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
       
       <style>
-                      /*CSS Menu*/
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-            /*position: fixed;
-            top: 0;
-            width: 100%;*/
-        }
-
-        li {
-            float: left;
-            border-right: 1px solid #bbb;
-        }
-        
-        li:last-child {
-            border-right: none;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            background-color: #4CAF50;
-        }
-        
-        .active {
-    background-color: #4CAF50;
-}
-
-/*CSS search box*/
-input[type=text] {
-    width: 150px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-    width: 100%;
-}
-
+    
 .center {
     line-height: 200px;
     height: 200px;
@@ -84,21 +26,7 @@ input[type=text]:focus {
     </head>
     <body>
         
-        <header>
-            <h1>Info-Annonces</h1>
-        <ul>
-            <li><a onclick="window.location='Annonce.html';">Accueil</a></li>
-            <li><a  >Categories</a></li>
-            <li><a  >Mon compte</a></li>
-            <li style="float:right"> <a  onclick="window.location='LoginPage.html';">Deconnexion</a></li>
-            <li style="float:right"><a >About</a></li>
-            <li style="float:right">
-                <form>
-                    <input type="text" name="recherche" placeholder="Recherche..">
-                </form>
-            </li>
-        </ul>
-        </header>
+        <?php require_once 'en-tete.php';?>
         
         <div class="center">
             <table>

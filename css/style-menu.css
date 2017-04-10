@@ -7,7 +7,6 @@
         border-radius: 4px;
         font-size: 16px;
         background-color: white;
-        /*background-image: url('searchicon.png');*/
         background-position: 10px 10px;
         background-repeat: no-repeat;
         padding: 12px 20px 12px 40px;
@@ -37,7 +36,8 @@
     }
 
     .pagination a.active {
-        background-color: #4CAF50;
+        /*#1161ee*/
+        background-color: #1161ee;
         color: white;
     }
 
@@ -46,10 +46,11 @@
     /*sAffichageAnnonces - tableau qui contient tous les annonces*/
     .sAffichageAnnonces{
       margin: 0 auto;
-      background-color: gray;
+      background-color: white;
       padding: 0 2em 0 2em;
     }
  
     body{
-       background-color: #f7f7f7;
+        
+        background: rgba(40,57,101,.6);
     }

@@ -30,7 +30,7 @@
                         </div>
                 </li>
                 <li class="menuHaut"><a class="menuHaut" >Mon compte</a></li>
-                <li class="menuHaut" style="float:right"> <a class="menuHaut" onclick="window.location = 'LoginPage.html';">Deconnexion</a></li>
+                <li class="menuHaut" style="float:right"> <a class="menuHaut" onclick="window.location = 'connexion.php';">Deconnexion</a></li>
                 <li class="menuHaut" style="float:right"><a class="menuHaut">About</a></li>
                 <li class="menuHaut" style="float:right">
                     <form>
@@ -79,7 +79,7 @@
                             <table style="height:150px" border="1" <!--frame="box"--> >
                                 <caption style="font-weight: bold;font-variant: small-caps;font-size: 150%;height:40px;line-height: 40px;" >Annonce no1</caption>
                                 <tr>
-                                    <th align="center"><a href="info-annonce.html">Bugatti chiron</a> </th>
+                                    <th align="center"><a href="infos-annonce.php">Bugatti chiron</a> </th>
                                 </tr>
                                 <tr>
                                     <td><img src="Produit1.jpg"  style="border:2px solid;width:144px;height:150px;"></td>

@@ -37,7 +37,7 @@
                         </div>
                         <div class="hr"></div>
                         <div class="foot-lnk">
-                            <a href="#forgot">Mot de passe oublié?</a>
+                            <a href="oublieMotDePasse.html">Mot de passe oublié?</a>
                         </div>
                     </div>
                     <div class="sign-up-htm">

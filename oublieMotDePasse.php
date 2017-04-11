@@ -5,7 +5,7 @@
         <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
         <link rel="stylesheet" href="css/LoginCSS-Style.css">
         
-        <title>Oublié mot de passe</title>
+        <title>Changement mot de passe</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -30,7 +30,7 @@
                         </div>
                         <div class="group">
 
-                            <input type="submit" class="button" value="Generer un nouveau mot de pase" onclick="window.location = 'connexion.php';">
+                            <input type="submit" class="button" value="Generer un nouveau mot de passe" onclick="window.location = 'connexion.php';">
                         </div>
                     </div>
                 </div>

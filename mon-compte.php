@@ -19,7 +19,7 @@
 
         <div class="container" align="middle">
             <form>
-                <table class="sAffichageAnnonces" style="width: 800px; height: 800px" border='1' width="40%" cellpadding="10">
+                <table class="sAffichageAnnonces" style="width: 800px; height: 800px"  width="40%" cellpadding="10" frame="box">
                     <caption style="font-weight: bold;font-variant: small-caps;font-size: 150%;height:40px;line-height: 40px;" ><a>Mise à jour de vos informations</a></caption>
                     <tr>
                         <td style="font-weight: bold;font-size: 110%">Statut d'employé</td>
@@ -49,7 +49,7 @@
                     <tr>
                         <td style="font-weight: bold;font-size: 110%">Courriel</td>
                         <td>
-                            <input type="text" name="Courriel" value="alainabboud@bell.net" style="width: 100%;" disabled="">
+                            <input type="email" name="Courriel" value="alainabboud@bell.net" style="width: 100%;" disabled="">
                         </td>
                     </tr>
                     <tr>

@@ -17,7 +17,7 @@
         width: 100%;
     }
     </style>
-            <h1>N'IMPORTE QUOI</h1>
+            <img src="logo.png">
             <ul class="menuHaut">
 
                 <li class="menuHaut"><a class="menuHaut"onclick="window.location = 'annonces.php';">Accueil</a></li>
@@ -34,7 +34,7 @@
                 <li class="menuHaut"><a class="menuHaut" onclick="window.location = 'mes-annonces.php';">Mes Annonces</a></li>
                 <li class="menuHaut"><a class="menuHaut" onclick="window.location = 'nouvelle-annonce.php';">Nouvelle annonce</a></li>
                 <li class="menuHaut"><a class="menuHaut" onclick="window.location = 'gestionAnnonces.php';">Gérer toutes les annonces</a></li>
-                <li class="menuHaut"><a class="menuHaut" onclick="window.location = 'nouvelle-annonce.php';">Voir tous les utilisateurs</a></li>
+                <li class="menuHaut"><a class="menuHaut" onclick="window.location = 'utilisateurs.php';">Voir tous les utilisateurs</a></li>
                 <li class="menuHaut" style="float:right"><a class="menuHaut" onclick="window.location = 'connexion.php';">Déconnexion</a></li>
                 
                 <li class="menuHaut" style="float:right">

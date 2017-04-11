@@ -57,7 +57,7 @@
 
         <div class="container" align="middle">
             <form>
-                <table border='1' width="40%" cellpadding="10">
+                <table  width="40%" cellpadding="10" bgcolor="#FFFFFF" frame="box">
                     <caption style="font-weight: bold;font-variant: small-caps;font-size: 150%;height:40px;line-height: 40px;" ><a>Inscription d'une nouvelle annonce</a></caption>
                     <tr>
                         <td style="font-weight: bold;font-size: 110%">Categorie</td>
@@ -79,8 +79,7 @@
                     <tr>
                         <td style="font-weight: bold;font-size: 110%">Description Complete</td>
                         <td>
-                            <textarea name="DescComplete" rows="10" cols="50">Description Complete
-                            </textarea>
+                            <textarea name="DescComplete" rows="10" cols="50"></textarea>
                         </td>
                     </tr>
                     <tr>

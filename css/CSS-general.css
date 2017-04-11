@@ -1,7 +1,7 @@
 
   /*CSS search box*/
-    input[type=text] {
-       
+    input[type=text] .search {
+
         box-sizing: border-box;
         border: 2px solid #ccc;
         border-radius: 4px;
@@ -13,9 +13,9 @@
         -webkit-transition: width 0.4s ease-in-out;
         transition: width 0.4s ease-in-out;*/
     }
-    
+
     input[type=button], input[type=submit], input[type=reset] {
-        background-color: #008CBA;
+        background-color: #3477e2;
         border: none;
         color: white;
         padding: 12px 24px;
@@ -23,7 +23,7 @@
         margin: 2px 1px;
         cursor: pointer;
 
-        /*background-color: #008CBA; 
+        /*background-color: #008CBA;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -33,10 +33,6 @@
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;*/
-    }
-
-    input[type=text]:focus {
-        width: 100%;
     }
 
     /* CSS Pagination */
@@ -70,8 +66,8 @@
       background-color: white;
       padding: 0 2em 0 2em;
     }
- 
+
     body{
-        
+
         background: rgba(40,57,101,.6);
     }

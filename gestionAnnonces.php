@@ -32,7 +32,7 @@
 
                     <td>
                         <div>
-                            <table style="height:150px" border="1" frame="box" >
+                            <table style="height:150px" frame="box" >
                                 <caption style="font-weight: bold;font-variant: small-caps;font-size: 150%;height:40px;line-height: 40px;" ><a href="infos-annonce.php">Bugatti chiron</a></caption>
                                 <tr>
                                     <th align="center">Annonce no. <?= $i?> </th>
@@ -40,7 +40,7 @@
                                 <tr>
                                     <td><img src="Produit1.jpg"  style="border:2px solid;width:144px;"></td>
                                     <td>
-                                        <table  align="left" border="1" cellspacing="5" width="800">
+                                        <table  align="left" cellspacing="5" width="800">
                                             <tr>
                                                 <td style="text-align:left;">Numéro séquentiel11 : </td>
                                             </tr>
@@ -57,7 +57,7 @@
                                                 <td style="text-align:left;">Prix :  </td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align:center;">Etat :</td>
+                                                <td style="text-align:left;">Etat :</td>
                                                 
                                             </tr>
                                             <tr>

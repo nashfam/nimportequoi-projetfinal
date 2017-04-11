@@ -58,7 +58,7 @@
                             <input id="pass" type="password" class="input" data-type="password">
                         </div>
                         <div class="group">
-                            <input type="submit" class="button" value="Enregistrement">
+                            <input type="submit" class="button" value="Enregistrement" onclick="window.location = 'connexion.php';">
                         </div>
                         <div class="hr"></div>
                         <div class="foot-lnk">

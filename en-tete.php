@@ -1,5 +1,22 @@
 <header>
     <link rel="stylesheet" href="css/CSS-menu.css" type="text/css">
+    <style>
+         input[type=text] {
+       
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+    }
+
+    input[type=text]:focus {
+        width: 100%;
+    }
+    </style>
             <h1>N'IMPORTE QUOI</h1>
             <ul class="menuHaut">
 

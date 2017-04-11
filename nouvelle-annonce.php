@@ -10,6 +10,42 @@
     <head>
         <link rel="stylesheet" href="CSS-Menu.css" type="text/css">
         <link rel="stylesheet" href="css/CSS-general.css" type="text/css">
+        
+        <style>
+            textarea {
+                width: 100%;
+                height: 150px;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                background-color: #f8f8f8;
+                font-size: 16px;
+                resize: none;
+            }
+            
+            /*input[type=button], input[type=submit], input[type=reset] {
+                background-color: #008CBA;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+
+                background-color: #008CBA; 
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }*/
+        </style>
+        
 
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
@@ -69,6 +105,8 @@
                     <tr>
                 </table>
             </form>
+            
+            <input type="submit" class="button" value="Inscrire nouvelle annonce" onclick="window.location = 'annonces.php';">
 
         </div>
     </body>

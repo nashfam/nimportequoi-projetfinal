@@ -55,12 +55,14 @@
                     <tr>
                         <td style="font-weight: bold;font-size: 110%">Mot de passe</td>
                         <td>
-                            <input type="password" name="motPasse" value="6249613" style="width: 100%;" disabled="">
-                            <input class="button" value="Mettre à jour" onclick="window.location = 'oublieMotDePasse.php';">
+                            <input type="password" name="motPasse" value="6249613" style="width: 50%;" disabled="">
+                        </td>
+                        <td>
+                            <input type='button' class="button" value="Mettre à jour mot de passe" onclick="window.location = 'oublieMotDePasse.php';">
                         </td>
                     </tr>
                     <tr>
-                        <td style="font-weight: bold;font-size: 110%">Prix</td>
+                        <td style="font-weight: bold;font-size: 110%"></td>
                         <td>
                             <input type="checkbox" name="public" min="1" step="any" ><label>Rendre mes informations publiques</label>
                         </td>
